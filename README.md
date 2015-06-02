@@ -1,6 +1,6 @@
 # glingo
 
-A Clojure library designed to ... well, that part is up to you.
+Clojure client for Google Translate API
 
 ## Usage
 
