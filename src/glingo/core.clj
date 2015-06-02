@@ -1,6 +1,6 @@
 (ns glingo.core
   (:require [org.httpkit.client :as client]
-            [environ.core :refEer [env]]
+            [environ.core :refer [env]]
             [clojure.data.json :as json]
             ))
 

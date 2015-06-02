@@ -11,5 +11,8 @@
   :profiles {:dev   {:dependencies
                      [[midje "1.6.3"]
                       [midje-junit-formatter "0.1.0-SNAPSHOT"]]
-                     :plugins [[lein-environ "1.0.0"]]
+                     :plugins [
+                         [lein-environ "1.0.0"]
+                         [lein-midje "3.0.0"]
+                        ]
                      }})
