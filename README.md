@@ -4,7 +4,15 @@ Clojure client for Google Translate API
 
 ## Usage
 
-FIXME
+En environ key :google-translate-key mus be configured. Then:
+
+    glingo.core> (translate "hi" "en" "bg") 
+    "здрасти"
+    
+    glingo.core> (def p  (translate-async "hi" "de" "en"))
+    glingo.core/p
+    glingo.core> @p
+    {:data {:translations [{:translatedText "hi"}]}}
 
 ## License
 
