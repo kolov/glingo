@@ -1,10 +1,10 @@
 # glingo
 
-Clojure client for Google Translate API
+Clojure client for Google Translate API. Based on http-kit
 
 ## Usage
 
-En environ key :google-translate-key mus be configured. Then:
+En [environ](https://github.com/weavejester/environ) key :google-translate-key must be configured. Then:
 
     glingo.core> (translate "hi" "en" "bg") 
     "здрасти"
