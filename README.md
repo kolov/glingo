@@ -2,6 +2,10 @@
 
 Clojure client for Google Translate API. Based on http-kit
 
+## Status
+### Status
+[![Build Status](https://travis-ci.org/kolov/glingo.svg?branch=master)](https://travis-ci.org/kolov/glingo.svg?branch=master)
+ 
 ## Usage
 
 En [environ](https://github.com/weavejester/environ) key :google-translate-key must be configured. Then:
