@@ -2,9 +2,8 @@
 
 Clojure client for Google Translate API. Based on http-kit
 
-## Status
 ### Status
-[![Build Status](https://travis-ci.org/kolov/glingo.svg?branch=master)](https://travis-ci.org/kolov/glingo.svg?branch=master)
+[![Build Status](https://travis-ci.org/kolov/glingo.svg?branch=master)](https://travis-ci.org/kolov/glingo)
  
 ## Usage
 
